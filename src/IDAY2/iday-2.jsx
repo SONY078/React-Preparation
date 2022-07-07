@@ -58,3 +58,15 @@ class Store extends React.Component {
 // In React, you can create distinct components that encapsulate behavior you need. 
 // Then, you can render only some of them, depending on the state of your application. 
 // Conditional rendering in React works the same way conditions work in JavaScript.
+// ex:
+// function Greeting(props) {
+//   const isLoggedIn = props.isLoggedIn;
+//   if (isLoggedIn) {
+//     return <UserGreeting />;
+//   }
+//   return <GuestGreeting />;
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById('root')); 
+// // Try changing to isLoggedIn={true}:
+// root.render(<Greeting isLoggedIn={false} />);
