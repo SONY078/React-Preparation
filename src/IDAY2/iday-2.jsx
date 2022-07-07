@@ -54,4 +54,7 @@ class Store extends React.Component {
  
   // In the example, there are two React components. 
 // The Store component is stateful and the Week component is stateless.
-
+//7. How do you switch one component to another, Conditional Rendering
+// In React, you can create distinct components that encapsulate behavior you need. 
+// Then, you can render only some of them, depending on the state of your application. 
+// Conditional rendering in React works the same way conditions work in JavaScript.
