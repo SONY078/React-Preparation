@@ -12,6 +12,10 @@ import About from './IDAY2/About';
 import Navbar from './IDAY2/Navb';
 import NotFound from './IDAY2/Not';
 
+import Iday3 from './IDAY3/iday-3';
+import UseEffect from './IDAY3/UseEffect';
+import UseS from './IDAY3/UseS';
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +25,12 @@ function App() {
         <Parent />
       <Store/>
       <Week day="thursday"/>
+     <UseS/>
+      <hr/>
+      <UseEffect/>
+      <hr/>
+      <Iday3/>
+      <hr/>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
