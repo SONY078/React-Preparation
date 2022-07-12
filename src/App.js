@@ -23,7 +23,7 @@ import CalculateFactorial from './IDAY4/UseMemoExample';
 import RenderCounter from './IDAY4/UseRef';
 import StopWatch from './IDAY4/UseRefExample';
 
-import KeyExample from './IDAY5/KeyExample';
+// import KeyExample from './IDAY5/KeyExample';
 
 import EventExample from './IDAY6/EventExample';
 
