@@ -59,7 +59,7 @@ function App() {
       <CalculateFactorial/>
       <RenderCounter/>
       <StopWatch/>
-      <KeyExample/>
+//       <KeyExample/>
       <EventExample/>
     </div>
   );
